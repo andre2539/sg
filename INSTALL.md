@@ -37,6 +37,17 @@ git clone https://github.com/Good-Old-Downloads/sg.git
 cd sg
 php composer.phar install
 ```
+##### Getting slug generator (for root & ubuntu < 16.04 i think)
+```bash
+apt-get install php7.2-mbstring php7.2-intl php7.2-gd
+php composer.phar require ausi/slug-generator
+```
+OR
+```bash
+apt install composer
+composer require ausi/slug-generator
+```
+
 ##### Configuring the site:
 Make a copy of config_blank.php named config.php and edit it.
 ```bash
