@@ -52,6 +52,10 @@ composer require ausi/slug-generator
 Make a copy of config_blank.php named config.php and edit it.
 ```bash
 cp config_blank.php config.php
+nano config.php
+
+OR
+
 vi config.php
 ```
 config.php explantion:
