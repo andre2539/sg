@@ -6,7 +6,7 @@ $CONFIG = array(
     "DEV" => true,
 
     "DB" => [
-        "DBNAME" => "scene",
+        "DBNAME" => "sg",
         "DBUSER" => "root",
         "DBPASS" => ""
     ],
@@ -15,7 +15,6 @@ $CONFIG = array(
         "SERVER" => "127.0.0.1",
         "PORT" => 11211
     ],
-
     // List of trackers to use when making magnets
     "TRACKERS" => array(
         'udp://tracker.opentrackr.org:1337/announce',
